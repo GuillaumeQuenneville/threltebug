@@ -13,10 +13,13 @@ importers:
         version: 6.2.0(svelte@5.38.10)(vite@7.1.5)
       '@threlte/core':
         specifier: ^8.1.5
-        version: 8.1.5(svelte@5.38.10)(three@0.166.1)
+        version: 8.1.5(svelte@5.38.10)(three@0.180.0)
       svelte:
         specifier: ^5.33.10
         version: 5.38.10
+      three:
+        specifier: ^0.180.0
+        version: 0.180.0
       vite:
         specifier: ^7.1.5
         version: 7.1.5
@@ -428,8 +431,8 @@ packages:
     resolution: {integrity: sha512-UY+OhrWK7WI22bCZ00P/M3HtyWgwJPi9IxSRkoAE2MeAy6kl7ZlZWJZ8RaB+X4KD/G+wjis+cGVnVYaoqbzBqg==}
     engines: {node: '>=18'}
 
-  three@0.166.1:
-    resolution: {integrity: sha512-LtuafkKHHzm61AQA1be2MAYIw1IjmhOUxhBa0prrLpEMWbV7ijvxCRHjSgHPGp2493wLBzwKV46tA9nivLEgKg==}
+  three@0.180.0:
+    resolution: {integrity: sha512-o+qycAMZrh+TsE01GqWUxUIKR1AL0S8pq7zDkYOQw8GqfX8b8VoCKYUoHbhiX5j+7hr8XsuHDVU6+gkQJQKg9w==}
 
   tinyglobby@0.2.15:
     resolution: {integrity: sha512-j2Zq4NyQYG5XMST4cbs02Ak8iJUdxRM0XI5QyxXuZOzKOINmWurp3smXu3y5wDcJrptwpSjgXHzIQxR0omXljQ==}
@@ -673,11 +676,11 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@threlte/core@8.1.5(svelte@5.38.10)(three@0.166.1)':
+  '@threlte/core@8.1.5(svelte@5.38.10)(three@0.180.0)':
     dependencies:
       mitt: 3.0.1
       svelte: 5.38.10
-      three: 0.166.1
+      three: 0.180.0
 
   '@types/estree@1.0.8': {}
 
@@ -809,7 +812,7 @@ snapshots:
       magic-string: 0.30.19
       zimmerframe: 1.1.4
 
-  three@0.166.1: {}
+  three@0.180.0: {}
 
   tinyglobby@0.2.15:
     dependencies:
